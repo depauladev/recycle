@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    background: #e5e5e5;
+}
+
+.container {
+
+    height: 600px;
+    width: 400px;
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+.score {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.cookie-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: tomato;
+    height: calc(100% - 68px);
+}
+
+.cookie {
+    background-color: blue;
+    padding: 30px;
+    cursor: pointer;
+}
