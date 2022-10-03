@@ -6,35 +6,37 @@
 
 .root {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background: #e5e5e5;
 }
 
 .container {
-
-    height: 600px;
+    min-height: 600px;
     width: 400px;
     border: 1px solid #000;
     background-color: #fff;
+    text-align: center;
 }
 
 .score {
-    text-align: center;
     margin-top: 30px;
     font-size: 32px;
 }
 
 .cookie-container {
-    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center; 
-    background-color: tomato;
-    height: calc(100% - 68px);
+    height: 400px;
 }
 
-.cookie {
-    background-color: blue;
-    padding: 30px;
+.cookie img {
+    height: 200px;
+    width: 200px;
     cursor: pointer;
+    transition: ease .5s;
+}
+
+.cookie img:hover {
+    transform: scale(1.1);
 }
